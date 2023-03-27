@@ -1,7 +1,6 @@
 import React from "react";
 import classes from "./spinner.module.css";
 const NotAvailable = () => {
-
   return (
     <div
       className="w-[100vw] p-[30px] h-[100vh] bg-white fixed top-0 left-0 z-10 flex flex-col  items-center justify-center "
@@ -9,7 +8,7 @@ const NotAvailable = () => {
         zIndex: 100,
       }}
     >
-      <h1 className="text-black translate-y-[200px] font-medium tracking-wide ">
+      <h1 className="text-black translate-y-[210px] font-medium tracking-wide ">
         I'll be making the social media Demo Project here!
       </h1>
       <div className={classes.loader}>
